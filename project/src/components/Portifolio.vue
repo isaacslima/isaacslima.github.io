@@ -1,22 +1,65 @@
 <template>
-<v-container>
- <v-card color="blue-grey darken-3" outlined>
+  <v-container>
+    <v-row>
+  <v-col cols="3">
+   <v-card class="mx-auto my-12" max-width="374">
+    <v-img
+      responsive
+      src="../assets/unesul.jpg"
+    ></v-img>
 
-    <v-list-item three-line>
-      <v-list-item-content>
-        <div class="overline mb-4">Hi, I'm Isaac.</div>
-        <v-list-item-title class="headline mb-1">This is my Portifolio's page.</v-list-item-title>
-      </v-list-item-content>
+    <v-card-title>Controle de estágio</v-card-title>
 
-      <v-list-item-avatar
-        tile
-        size="80"
-        class="my-avatar"
+    <v-card-text>
+      
+
+      <div class="my-4 subtitle-1">
+         Projeto para cadastro e gerenciamento do núcleo de estágio da faculdade.
+      </div>
+
+      <div></div>
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+        color="deep-purple"
+        @click="reserve"
       >
-      <img src="../assets/isaac.jpeg" max-height="100px" max-width="50px">
-      </v-list-item-avatar>
-    </v-list-item>
+        Ver mais info
+      </v-btn>
+    </v-card-actions>
   </v-card>
+  </v-col>
+  <v-col cols="3">    
+  <v-card class="mx-auto my-12" max-width="374" >
+    <v-img
+      responsive
+      src="../assets/espaco-materno.png"
+    ></v-img>
+
+    <v-card-title>Espaço materno</v-card-title>
+
+    <v-card-text>
+      
+
+      <div class="my-4 subtitle-1">
+         Projeto para cadastro e gerenciamento dos clientes, entradas e saídas.
+      </div>
+
+      <div></div>
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+        color="deep-purple"
+        @click="reserve"
+      >
+        Ver mais info
+      </v-btn>
+    </v-card-actions>
+  </v-card>
+</v-col>
+</v-row>
   </v-container>
 </template>
 
