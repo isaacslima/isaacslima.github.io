@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-  <v-col cols="3">
+  <v-col class="col-xs-12 col-md-3">
    <v-card class="mx-auto my-12" max-width="374">
     <v-img
       responsive
@@ -30,7 +30,7 @@
     </v-card-actions>
   </v-card>
   </v-col>
-  <v-col cols="3">    
+  <v-col class="col-xs-12 col-md-3">    
   <v-card class="mx-auto my-12" max-width="374" >
     <v-img
       responsive
