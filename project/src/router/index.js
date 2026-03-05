@@ -1,17 +1,13 @@
+import { createRouter, createWebHistory } from 'vue-router'
 import Portifolio from '../components/Portifolio'
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
 
 const routes = [
     { path: '/', component: Portifolio }
 ]
 
-
-const router = new VueRouter({
-    mode: 'history',
+const router = createRouter({
+    history: createWebHistory(),
     routes
 })
 
-export default router;
+export default router

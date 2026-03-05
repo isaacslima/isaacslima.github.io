@@ -1,10 +1,9 @@
 <template>
   <v-container>
     <v-row>
-  <v-col class="col-xs-12 col-md-3">
+  <v-col cols="12" md="3">
    <v-card class="mx-auto my-12" max-width="374">
     <v-img
-      responsive
       src="../assets/unesul.jpg"
     ></v-img>
 
@@ -13,7 +12,7 @@
     <v-card-text>
       
 
-      <div class="my-4 subtitle-1">
+      <div class="my-4 text-subtitle-1">
          Projeto para cadastro e gerenciamento do núcleo de estágio da faculdade.
       </div>
 
@@ -30,10 +29,9 @@
     </v-card-actions>
   </v-card>
   </v-col>
-  <v-col class="col-xs-12 col-md-3">    
+  <v-col cols="12" md="3">
   <v-card class="mx-auto my-12" max-width="374" >
     <v-img
-      responsive
       src="../assets/espaco-materno.png"
     ></v-img>
 
@@ -42,7 +40,7 @@
     <v-card-text>
       
 
-      <div class="my-4 subtitle-1">
+      <div class="my-4 text-subtitle-1">
          Projeto para cadastro e gerenciamento dos clientes, entradas e saídas.
       </div>
 
@@ -73,4 +71,3 @@
 
 }
 </style>
-
